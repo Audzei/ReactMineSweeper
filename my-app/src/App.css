@@ -1,0 +1,37 @@
+body {
+    background-size: cover;
+    background-position: center;
+    background-image: url(./util/minesweeper-background.jpg);
+  }
+  
+  .App {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+  }
+  
+  #gameOverImage {
+    opacity: 100;
+    z-index: 4;
+    height: 70%;
+    max-width: 100%;
+    margin: 0 50px;
+    background: url(./util/saper.jpg)
+      0px 80px no-repeat;
+    background-repeat: repeat-x;
+    position: relative;
+    padding-top: 20px;
+  }
+  
+  .tryAgain {
+    cursor: pointer;
+    margin: 0 50px;
+    border-radius: 7px;
+    background: gray;
+    color: rgb(246, 250, 244);
+    padding: 10px;
+    font-weight: 700;
+  }
